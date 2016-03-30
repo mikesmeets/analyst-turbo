@@ -1,0 +1,14 @@
+<template name="DiligencePlanner">
+    <div class="diligence-table-container">
+        {{> DiligenceItems }}
+    </div>
+    <div class="panel panel-primary new-diligence-item-container">
+        <div class="panel-heading">
+            <h3 class="panel-title">New Item</h3>
+            <i class="fa fa-close toggle-button"></i>
+        </div>
+        <div class="new-diligence-item">
+            {{> NewDiligenceItem }}
+        </div>
+    </div>
+</template>

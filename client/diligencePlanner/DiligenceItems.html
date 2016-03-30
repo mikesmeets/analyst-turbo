@@ -1,0 +1,10 @@
+<template name="DiligenceItems">
+    {{#if Template.subscriptionsReady}}
+        {{> WeekOfFilter }}
+        {{> reactiveTable collection=diligenceItems settings=tableSettings }}
+    {{/if}}
+</template>
+
+<template name="WeekOfFilter">
+    <input class="form-control week-of-work-filter-input" type="week">
+</template>
