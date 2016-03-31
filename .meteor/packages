@@ -30,3 +30,4 @@ fortawesome:fontawesome
 aslagle:reactive-table
 twbs:bootstrap
 cfs:standard-packages
+cfs:gridfs
